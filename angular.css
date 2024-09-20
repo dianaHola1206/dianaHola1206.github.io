@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #FFCE00;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido en la fila */
+    justify-content: space-between; /* Espacia la imagen y el texto */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 1000px; /* Ancho máximo del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+.sizes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sizes select,
+.sizes button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+nav {
+    background-color:#89119D;
+    padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+.image-container {
+    text-align: center; /* Centra la imagen dentro del contenedor */
+    padding: 20px; /* Espaciado opcional alrededor de la imagen */
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+.text-container {
+    padding-left: 20px; /* Ajusta el valor según el espacio deseado */
+  }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    color: #FFCE00;
+    text-decoration: none;
+    padding: 0 20px;
+    list-style: none;
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-size: 3ch;
+    letter-spacing: -2px;
+    font-weight: 800;
+  }
+  .menu-item {
+    color: #FFCE00; /* Color normal del texto */
+    /* Otros estilos */
+}
+/* Añadido para establecer el diseño flexible y el espaciado */
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    gap: 20px; /* Ajusta el espacio entre la imagen y el texto */
+    padding: 20px; /* Opcional: agrega espacio alrededor del contenedor */
+}
+
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente en su contenedor */
+    align-items: center; /* Centra la imagen verticalmente en su contenedor */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Opcional: redondea las esquinas de la imagen */
+}
+
+.text-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente dentro de la sección de texto */
+}
+
+.text-section p {
+    text-align: justify;
+    margin: 0; /* Elimina el margen predeterminado del párrafo para un mejor control del espaciado */
+    padding: 0 20px;
+}
+
+
+.button-section {
+    display: flex;
+    flex-direction: column; /* Coloca los botones en una columna */
+    align-items: flex-start; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+/* Estilo para los elementos dentro de la sección de botones */
+.button-section select,
+.button-section input,
+.button-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para el botón */
+.button-section button {
+    background-color: #FFCE00;
+    color: purple;
+    cursor: pointer;
+}
+
+/* Estilo para el botón al pasar el ratón sobre él */
+.button-section button:hover {
+    background-color: #FFD700;
+}
+
+
+
+footer {
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-box {
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo ligeramente oscuro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-text {
+    margin-top: 10px;
+}
